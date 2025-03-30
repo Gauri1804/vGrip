@@ -1,0 +1,125 @@
+/* Full Page Container */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+}
+
+/* Login Box */
+.loginBox {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading */
+.loginTitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Subtitle */
+.loginSubtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Box */
+.inputContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+/* Input Field */
+.inputField {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Forgot Password Link */
+.forgotPassword {
+    align-self: flex-end;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Error Message */
+.errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Login Button */
+.loginButton {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginButton:hover {
+    background: linear-gradient(135deg, #0056b3, #004494);
+}
+
+/* Sign Up Section */
+.signUpText {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signUpLink {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:600px) {
+    .loginBox {
+        width: 70%;
+        padding-block: 10px;
+    }
+
+}
